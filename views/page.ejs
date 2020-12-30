@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map div</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+
+<body>
+    <div id="conteneur">
+        <% meteo.map(function(meteo){%>
+            <div class="bloc">
+                <h1>
+                    <%=meteo.region %>
+                </h1>
+                <h3>Temperature:
+                    <%=meteo.temperature%>
+                </h3>
+                <h3>Laltidude:
+                    <%=meteo.position.laltitude%>
+                </h3>
+                <h3>Longitude:
+                    <%=meteo.position.longitude%>
+                </h3>
+
+                <button class="bouton" id="ouv" onclick="ouvrirButton()">Allumer</button>
+                <button class="bouton" onclick="fermerButton()">Eteindre</button>
+
+                <img class="imagehaut" src="/image/on.png">
+                <img class="imageright" src="/image/offr.png">
+                <script src="script.js"></script>
+
+
+            </div>
+            <%})%>
+
+
+    </div>
+
+</body>
+
+</html>

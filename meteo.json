@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "region": "Dakar",
+        "temperature": 25,
+        "position": {
+            "laltitude": 1234,
+            "longitude": 4321
+        }
+    },
+    {
+        "id": 2,
+        "region": "Thies",
+        "temperature": 30,
+        "position": {
+            "laltitude": 4567,
+            "longitude": 7654
+        }
+    },
+    {
+        "id": 3,
+        "region": "Kaolack",
+        "temperature": 40,
+        "position": {
+            "laltitude": 7891,
+            "longitude": 1587
+        }
+    },
+    {
+        "id": 4,
+        "region": "Matam",
+        "temperature": 50,
+        "position": {
+            "laltitude": 7892,
+            "longitude": 1583
+        }
+    }
+]
